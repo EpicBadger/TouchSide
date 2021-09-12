@@ -12,7 +12,7 @@
                 Margin="670,5,5,5" VerticalAlignment="Top" Width="110" Click="SelectButton_Click"   
                 RenderTransformOrigin="1.047,0.821" Height="20"/>
         <TextBox HorizontalAlignment="Left" Height="60" Margin="5,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="775" Name="FileContentsTextBox"/>
-        <Label x:Name="label" Content="File Content:" HorizontalAlignment="Left" Margin="5,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.394,0.337"/>
+        <Label x:Name="label" Content="All Words:" HorizontalAlignment="Left" Margin="5,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.394,0.337"/>
         
         <Label x:Name="label1" Content="Most Frequent Word(s):" HorizontalAlignment="Left" Margin="5,140,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="40" Margin="5,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="775" Name="mostFrequentTB"/>
