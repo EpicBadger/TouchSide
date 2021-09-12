@@ -1,0 +1,26 @@
+﻿<Window x:Class="touchsides.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:touchsides"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="5,5,5,5">
+        <TextBox HorizontalAlignment="Left" Height="20" Margin="5,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="660" Name="FileNameTextBox"/>
+        <Button x:Name="BrowseButton" Content="Select File" HorizontalAlignment="Left"   
+                Margin="670,5,5,5" VerticalAlignment="Top" Width="110" Click="SelectButton_Click"   
+                RenderTransformOrigin="1.047,0.821" Height="20"/>
+        <TextBox HorizontalAlignment="Left" Height="60" Margin="5,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="775" Name="FileContentsTextBox"/>
+        <Label x:Name="label" Content="File Content:" HorizontalAlignment="Left" Margin="5,39,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.394,0.337"/>
+        
+        <Label x:Name="label1" Content="Most Frequent Word(s):" HorizontalAlignment="Left" Margin="5,140,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="5,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="775" Name="mostFrequentTB"/>
+        
+        <Label x:Name="label1_Copy" Content="Most Frequent 7 Charactrer Word(s):" HorizontalAlignment="Left" Margin="5,210,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="5,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="775" Name="mostFrequent7CharTB"/>
+        
+        <Label x:Name="label1_Copy1" Content="Highest Scoring Word(s):" HorizontalAlignment="Left" Margin="5,280,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="5,305,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="775" Name="highestScoreTB"/>
+    </Grid>
+</Window>
